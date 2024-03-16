@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(31, 31, 58);
+  color: white;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  color: #fff;
+  width: 100%;
+}
+.header H1 {
+  margin: 10px;
+}
+.header p {
+  margin: 0;
+  color: #fff;
+}
+.tagline-inicio {
+  font-size: 22px;
+  color: #dad6ca;
+  margin-right: 300px;
+}
+.tagline-promociones {
+  font-size: 22px;
+  color: #dad6ca;
+}
+.tagline {
+  margin-right: 10px;
+  font-size: 22px;
+}
+.carrito {
+  color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 0.6%;
+}
+.cart {
+  display: flex;
+  align-items: center;
+}
+.carrito img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.cart span {
+  margin-left: 5px;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.container {
+  background-color: rgb(45, 45, 82);
+  display: flex; 
+  padding: 30px;
+  font-size: 20px;
+  width: 95%;
+}
+
+.details {
+  margin: 10px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .div12, .div13, .div14, .div15, .div16, .div17, .div18, .div19, .div20 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+}
+main > div > img {
+  width: 220px;
+  height: 200px;
+}
+
+footer{
+  background-color: rgb(45, 45, 82);
+  padding: 10px;
+  text-align: center;
+  
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 5px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
